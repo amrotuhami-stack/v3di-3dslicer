@@ -1,0 +1,32 @@
+# V3Di 3D Slicer Backend - Python Requirements
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# AWS
+boto3>=1.28.0
+
+# Medical Imaging
+SimpleITK>=2.2.1
+nibabel>=5.1.0
+pydicom>=2.4.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.11.0
+scikit-image>=0.21.0
+
+# 3D Processing
+trimesh>=4.0.0
+numpy-stl>=3.0.0
+vtk>=9.2.0
+
+# AI/ML
+torch>=2.0.0
+nnunetv2>=2.2
+
+# Utilities
+pydantic>=2.0.0
+python-dateutil>=2.8.0
